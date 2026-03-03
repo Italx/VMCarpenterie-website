@@ -40,6 +40,7 @@ export default function ContactOverlay({ onClose }: ContactOverlayProps) {
             <div className="relative group">
               <input
                 type="text"
+                aria-label="Nome e Cognome"
                 placeholder="Nome e Cognome"
                 className="w-full bg-transparent border-b border-dark/20 py-4 text-[1.8rem] focus:outline-none focus:border-red transition-colors placeholder:text-dark/30"
               />
@@ -47,6 +48,7 @@ export default function ContactOverlay({ onClose }: ContactOverlayProps) {
             <div className="relative group">
               <input
                 type="email"
+                aria-label="Email"
                 placeholder="Email"
                 className="w-full bg-transparent border-b border-dark/20 py-4 text-[1.8rem] focus:outline-none focus:border-red transition-colors placeholder:text-dark/30"
               />
@@ -54,12 +56,14 @@ export default function ContactOverlay({ onClose }: ContactOverlayProps) {
             <div className="relative group">
               <input
                 type="tel"
+                aria-label="Telefono"
                 placeholder="Telefono"
                 className="w-full bg-transparent border-b border-dark/20 py-4 text-[1.8rem] focus:outline-none focus:border-red transition-colors placeholder:text-dark/30"
               />
             </div>
             <div className="relative group">
               <textarea
+                aria-label="Il tuo messaggio"
                 placeholder="Il tuo messaggio"
                 rows={4}
                 className="w-full bg-transparent border-b border-dark/20 py-4 text-[1.8rem] focus:outline-none focus:border-red transition-colors placeholder:text-dark/30 resize-none"

@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Plus } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
 
 const PROJECTS = [
   {
@@ -23,6 +24,8 @@ const PROJECTS = [
 ];
 
 export default function Projects() {
+  const navigate = useNavigate();
+
   return (
     <section className="py-24 md:py-32 bg-dark text-cream rounded-[10px] md:rounded-[20px] mx-4 md:mx-8 mb-24">
       <div className="container-standard">
@@ -34,9 +37,9 @@ export default function Projects() {
             <p className="text-cream/60 text-[1.8rem] mt-8 mb-12">
               Scoprite alcuni dei nostri lavori più recenti, dove la precisione incontra il design.
             </p>
-            <a href="#" className="btn btn-light">
+            <Link to="/progetti" className="btn btn-light">
               Tutti i Progetti
-            </a>
+            </Link>
           </div>
 
           <div className="md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -44,6 +47,7 @@ export default function Projects() {
               <div
                 key={project.title}
                 className="group cursor-pointer"
+                onClick={() => navigate(`/progetti/${project.title.toLowerCase().replace(/\s+/g, '-')}`)}
               >
                 <div className="relative aspect-[4/3] overflow-hidden rounded-[10px] md:rounded-[15px] mb-8">
                   <img

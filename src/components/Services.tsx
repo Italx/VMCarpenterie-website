@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { SERVICES } from "../constants";
 import { Plus } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -15,9 +16,10 @@ export default function Services() {
 
       <div className="container-standard grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
         {SERVICES.map((service) => (
-          <div
+          <Link
             key={service.title}
-            className="group cursor-pointer"
+            to={service.link}
+            className="group cursor-pointer block"
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-[10px] md:rounded-[15px] mb-8">
               <img
@@ -36,7 +38,7 @@ export default function Services() {
             <p className="text-dark/70 text-[1.6rem]">
               {service.description}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

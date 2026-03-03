@@ -31,6 +31,10 @@
   h1 { @apply text-[3.4rem] md:text-[5.8rem] lg:text-[7.8rem] tracking-tighter mb-6; }
   h2 { @apply text-[2.6rem] md:text-[4.2rem] lg:text-[5.4rem] tracking-tight mb-4; }
   h3 { @apply text-[2.3rem] md:text-[3.2rem] lg:text-[4.4rem] mb-2; }
+
+  a, button {
+    @apply cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-dark focus-visible:ring-offset-2 focus-visible:ring-offset-cream focus-visible:rounded-sm transition-colors duration-200 motion-reduce:transition-none;
+  }
 }
 
 @layer components {
