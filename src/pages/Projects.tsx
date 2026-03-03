@@ -8,232 +8,260 @@ export const CATEGORIES = ['Tutti', 'Fornitura e Posa Serramenti', 'Arredamenti 
 
 export const ALL_PROJECTS = [
     {
-        "title": "Installazione Serramenti - 1",
+        "title": "Overview - 1",
+        "category": "Overview (gallery-3-columns)",
+        "location": "Verona, IT",
+        "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/erasebg-transformed.png",
+        "gallery": [],
+        "slug": "project-1"
+    },
+    {
+        "title": "Fornitura - 1",
         "category": "Fornitura e Posa Serramenti",
         "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/IMG_6468-2.jpg",
         "gallery": [],
-        "slug": "installazione-serramenti---1"
+        "slug": "project-2"
     },
     {
-        "title": "Installazione Serramenti - 3",
+        "title": "Fornitura - 2",
         "category": "Fornitura e Posa Serramenti",
-        "location": "Garda, IT",
+        "location": "Verona, IT",
+        "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/erasebg-transformed.png",
+        "gallery": [],
+        "slug": "project-3"
+    },
+    {
+        "title": "Fornitura - 3",
+        "category": "Fornitura e Posa Serramenti",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0114.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0116.jpg",
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0117.jpg",
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0118.jpg"
-        ],
-        "slug": "installazione-serramenti---3"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0116.jpg", "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0117.jpg", "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0118.jpg"],
+        "slug": "project-4"
     },
     {
-        "title": "Installazione Serramenti - 4",
+        "title": "Fornitura - 4",
         "category": "Fornitura e Posa Serramenti",
-        "location": "Vicenza, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0126.jpg",
         "gallery": [],
-        "slug": "installazione-serramenti---4"
+        "slug": "project-5"
     },
     {
-        "title": "Installazione Serramenti - 5",
+        "title": "Fornitura - 5",
         "category": "Fornitura e Posa Serramenti",
-        "location": "Brescia, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0142.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0143.jpg"
-        ],
-        "slug": "installazione-serramenti---5"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0143.jpg"],
+        "slug": "project-6"
     },
     {
-        "title": "Installazione Serramenti - 6",
+        "title": "Fornitura - 6",
         "category": "Fornitura e Posa Serramenti",
-        "location": "Padova, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0150.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0151.jpg",
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0153.jpg",
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0154.jpg"
-        ],
-        "slug": "installazione-serramenti---6"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0151.jpg", "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0153.jpg", "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0154.jpg"],
+        "slug": "project-7"
     },
     {
-        "title": "Arredo in Ferro Su Misura - 1",
+        "title": "Arredamenti - 1",
         "category": "Arredamenti di Design in Ferro",
         "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/Immagine-WhatsApp-2025-04-16-ore-12.22.27_6c9130ee.jpg",
         "gallery": [],
-        "slug": "arredo-in-ferro-su-misura---1"
+        "slug": "project-8"
     },
     {
-        "title": "Arredo in Ferro Su Misura - 3",
+        "title": "Arredamenti - 2",
         "category": "Arredamenti di Design in Ferro",
-        "location": "Garda, IT",
+        "location": "Verona, IT",
+        "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/erasebg-transformed.png",
+        "gallery": [],
+        "slug": "project-9"
+    },
+    {
+        "title": "Arredamenti - 3",
+        "category": "Arredamenti di Design in Ferro",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0076.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0078.jpg",
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0079.jpg"
-        ],
-        "slug": "arredo-in-ferro-su-misura---3"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0078.jpg", "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0079.jpg"],
+        "slug": "project-10"
     },
     {
-        "title": "Arredo in Ferro Su Misura - 4",
+        "title": "Arredamenti - 4",
         "category": "Arredamenti di Design in Ferro",
-        "location": "Vicenza, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0090.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0095.jpg"
-        ],
-        "slug": "arredo-in-ferro-su-misura---4"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0095.jpg"],
+        "slug": "project-11"
     },
     {
-        "title": "Arredo in Ferro Su Misura - 5",
+        "title": "Arredamenti - 5",
         "category": "Arredamenti di Design in Ferro",
-        "location": "Brescia, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0130.jpg",
         "gallery": [],
-        "slug": "arredo-in-ferro-su-misura---5"
+        "slug": "project-12"
     },
     {
-        "title": "Arredo in Ferro Su Misura - 6",
+        "title": "Arredamenti - 6",
         "category": "Arredamenti di Design in Ferro",
-        "location": "Padova, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0139.jpg",
         "gallery": [],
-        "slug": "arredo-in-ferro-su-misura---6"
+        "slug": "project-13"
     },
     {
-        "title": "Struttura in Acciaio - 2",
+        "title": "Opere - 1",
         "category": "Opere di Carpenterie Pesanti e Leggere",
-        "location": "Sommacampagna, IT",
+        "location": "Verona, IT",
+        "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/erasebg-transformed.png",
+        "gallery": [],
+        "slug": "project-14"
+    },
+    {
+        "title": "Opere - 2",
+        "category": "Opere di Carpenterie Pesanti e Leggere",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0090.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0091.jpg"
-        ],
-        "slug": "struttura-in-acciaio---2"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0091.jpg"],
+        "slug": "project-15"
     },
     {
-        "title": "Struttura in Acciaio - 3",
+        "title": "Opere - 3",
         "category": "Opere di Carpenterie Pesanti e Leggere",
-        "location": "Garda, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0112.jpg",
         "gallery": [],
-        "slug": "struttura-in-acciaio---3"
+        "slug": "project-16"
     },
     {
-        "title": "Struttura in Acciaio - 4",
+        "title": "Opere - 4",
         "category": "Opere di Carpenterie Pesanti e Leggere",
-        "location": "Vicenza, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0134.jpg",
         "gallery": [],
-        "slug": "struttura-in-acciaio---4"
+        "slug": "project-17"
     },
     {
-        "title": "Struttura in Acciaio - 5",
+        "title": "Opere - 5",
         "category": "Opere di Carpenterie Pesanti e Leggere",
-        "location": "Brescia, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0148.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0152.jpg"
-        ],
-        "slug": "struttura-in-acciaio---5"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0152.jpg"],
+        "slug": "project-18"
     },
     {
-        "title": "Struttura in Acciaio - 6",
+        "title": "Opere - 6",
         "category": "Opere di Carpenterie Pesanti e Leggere",
-        "location": "Padova, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0159.jpg",
         "gallery": [],
-        "slug": "struttura-in-acciaio---6"
+        "slug": "project-19"
     },
     {
-        "title": "Struttura in Acciaio - 7",
+        "title": "Opere - 7",
         "category": "Opere di Carpenterie Pesanti e Leggere",
         "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0166.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0169.jpg"
-        ],
-        "slug": "struttura-in-acciaio---7"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0169.jpg"],
+        "slug": "project-20"
     },
     {
-        "title": "Montaggio Industriale - 2",
+        "title": "Lavorazioni - 1",
         "category": "Lavorazioni Montaggi conto Terzi",
-        "location": "Sommacampagna, IT",
+        "location": "Verona, IT",
+        "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/erasebg-transformed.png",
+        "gallery": [],
+        "slug": "project-21"
+    },
+    {
+        "title": "Lavorazioni - 2",
+        "category": "Lavorazioni Montaggi conto Terzi",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0085.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0089.jpg"
-        ],
-        "slug": "montaggio-industriale---2"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0089.jpg"],
+        "slug": "project-22"
     },
     {
-        "title": "Montaggio Industriale - 3",
+        "title": "Lavorazioni - 3",
         "category": "Lavorazioni Montaggi conto Terzi",
-        "location": "Garda, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0123.jpg",
         "gallery": [],
-        "slug": "montaggio-industriale---3"
+        "slug": "project-23"
     },
     {
-        "title": "Montaggio Industriale - 4",
+        "title": "Lavorazioni - 4",
         "category": "Lavorazioni Montaggi conto Terzi",
-        "location": "Vicenza, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0160.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0162.jpg",
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0166.jpg"
-        ],
-        "slug": "montaggio-industriale---4"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0162.jpg", "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0166.jpg"],
+        "slug": "project-24"
     },
     {
-        "title": "Carpenteria per Edilizia - 2",
+        "title": "Forniture - 1",
         "category": "Forniture e pose per Edilizia",
-        "location": "Sommacampagna, IT",
+        "location": "Verona, IT",
+        "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/erasebg-transformed.png",
+        "gallery": [],
+        "slug": "project-25"
+    },
+    {
+        "title": "Forniture - 2",
+        "category": "Forniture e pose per Edilizia",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0076.jpg",
         "gallery": [],
-        "slug": "carpenteria-per-edilizia---2"
+        "slug": "project-26"
     },
     {
-        "title": "Carpenteria per Edilizia - 3",
+        "title": "Forniture - 3",
         "category": "Forniture e pose per Edilizia",
-        "location": "Garda, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0089.jpg",
         "gallery": [],
-        "slug": "carpenteria-per-edilizia---3"
+        "slug": "project-27"
     },
     {
-        "title": "Carpenteria per Edilizia - 4",
+        "title": "Forniture - 4",
         "category": "Forniture e pose per Edilizia",
-        "location": "Vicenza, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0111.jpg",
         "gallery": [],
-        "slug": "carpenteria-per-edilizia---4"
+        "slug": "project-28"
     },
     {
-        "title": "Carpenteria per Edilizia - 5",
+        "title": "Forniture - 5",
         "category": "Forniture e pose per Edilizia",
-        "location": "Brescia, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0130.jpg",
         "gallery": [],
-        "slug": "carpenteria-per-edilizia---5"
+        "slug": "project-29"
     },
     {
-        "title": "Manutenzione Impianto - 2",
+        "title": "Manutenzioni - 1",
         "category": "Manutenzioni Civili e Industriali",
-        "location": "Sommacampagna, IT",
+        "location": "Verona, IT",
+        "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2026/01/erasebg-transformed.png",
+        "gallery": [],
+        "slug": "project-30"
+    },
+    {
+        "title": "Manutenzioni - 2",
+        "category": "Manutenzioni Civili e Industriali",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0140.jpg",
         "gallery": [],
-        "slug": "manutenzione-impianto---2"
+        "slug": "project-31"
     },
     {
-        "title": "Manutenzione Impianto - 3",
+        "title": "Manutenzioni - 3",
         "category": "Manutenzioni Civili e Industriali",
-        "location": "Garda, IT",
+        "location": "Verona, IT",
         "image": "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0152.jpg",
-        "gallery": [
-            "https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0155.jpg"
-        ],
-        "slug": "manutenzione-impianto---3"
+        "gallery": ["https://www.vmcarpenteriametallica.it/wp-content/uploads/2025/10/IMG-20250414-WA0155.jpg"],
+        "slug": "project-32"
     }
 ];
 
